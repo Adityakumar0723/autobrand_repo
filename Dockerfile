@@ -44,7 +44,7 @@ WORKDIR /app
 
 # Copy package files and install deps
 COPY package*.json ./
-RUN npm install --production
+RUN pm install --production
 
 # Copy rest of the app
 COPY . .
