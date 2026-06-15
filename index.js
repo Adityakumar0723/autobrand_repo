@@ -37,7 +37,7 @@ app.use("/api/stripe/webhook", express.raw({ type: 'application/json' }), stripe
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Welcome to the AutoBrand API.This one ondemand agent ");
+    res.send("Welcome to the AutoBrand API.This one ondemand agent ondemand");
 });
 
 app.use('/api/v1', authenticationRoutes);
