@@ -37,7 +37,7 @@ app.use("/api/stripe/webhook", express.raw({ type: 'application/json' }), stripe
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Welcome to the AutoBrand API welcome back ondemand is the father of ai silence please aditya is owner of this website so why you are waiting so grab this opertunity heuhue here are you  . ");
+    res.send("Welcome to the AutoBrand API welcome back ondemand is the father of ai silence please aditya is owner of this website so why you are waiting so grab this opertunity heuhue here are you whats your thought on this bro   . ");
 });
 
 app.use('/api/v1', authenticationRoutes);
